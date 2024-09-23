@@ -18,17 +18,27 @@ let isLoggedIn =true //boolean
 //  console.log("1"+2+2);
 //  console.log(1+2+"2");
 
-console.log(null>0);// false => comparison operator change null to 0
-console.log(null==0);
-console.log(null>=0);// true => equlity check does not convert it to 0
+// console.log(null>0);// false => comparison operator change null to 0
+// console.log(null==0);
+// console.log(null>=0);// true => equlity check does not convert it to 0
 
 
 //strict check with datatype ===
 
 //string declaration
 
-const newname =new String('hello');
+// const newname =new String('hello');
 
-console.log(newname.length);
+// console.log(newname.length);
 
  
+const min=10
+const max=20
+console.log(Math.floor(Math.random()*(max-min +1)+min))
+
+const hundereds=1000000
+console.log(hundereds.toLocaleString('en-IN'))
+
+// to declare Number
+const newscore=new Number(100)
+console.log(newscore);
