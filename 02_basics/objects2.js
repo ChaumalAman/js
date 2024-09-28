@@ -27,3 +27,11 @@ const {courseInstructor : Inst} =course //destructuring of obj
 
 console.log(Inst);
 
+
+function user(anyObject){
+    console.log(`username is ${anyObject.name} and price is ${anyObject.price}`);
+    
+}
+
+user(course)
+
